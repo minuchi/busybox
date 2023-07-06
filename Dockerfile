@@ -14,6 +14,7 @@ RUN apt install -y \
     dnsutils \
     telnet \
     net-tools \
+    httpie \
     netcat-openbsd \
     neovim && \
     apt clean;
